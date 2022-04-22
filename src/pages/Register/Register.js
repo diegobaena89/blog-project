@@ -19,6 +19,7 @@ const Register = () => {
 
     const user = {
       displayName,
+      email,
       password,
       confirmPassword,
     };
