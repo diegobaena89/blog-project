@@ -11,10 +11,10 @@ import {
 import { useState, useEffect } from "react";
 
 export const useAuthentication = () => {
-  const [error, setError] = useState("");
+  const [error, setError] = useState(null);
   const [loading, setLoading] = useState(null);
 
-  // cleanup
+  //cleanup
   // deal with memory leak
   const [cancelled, setCancelled] = useState(false);
 
@@ -53,11 +53,11 @@ export const useAuthentication = () => {
       let systemErrorMessage;
 
       if (error.message.includes("Password")) {
-        systemErrorMessage = "A Senha precisa conter pelo menos 6 caracteres";
+        systemErrorMessage = "A senha precisa conter pelo menos 6 caracteres.";
       } else if (error.message.includes("email-already")) {
         systemErrorMessage = "E-mail já cadastrado";
       } else {
-        systemErrorMessage = "Ocorreu um erro, por favor tente mais tarde.";
+        systemErrorMessage = "Ocorreu um erro, por favor, tente mais tarde!";
       }
 
       setLoading(false);
