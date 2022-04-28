@@ -35,6 +35,7 @@ This is a small project that I've made during my class with Matheus Battisti. In
 - [x] Delete Post
 - [x] Read Post
 - [ ] Update Post
+- [ ] User's Dashboard
 
 
 ---
