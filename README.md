@@ -4,7 +4,7 @@
 
 ![badge](https://badgen.net/badge/languages/1/:color?) ![badge](https://badgen.net/badge/made_by/diegobaena89/:color?) 
 
-[Project](#project) | [Tecnologies](#tecnologies) | [Launch](#launch)
+[Project](#project) | [Tecnologies](#tecnologies) | [Features](#features) | [Launch](#launch)
 
 ![](https://github.com/diegobaena89/blog-project/blob/main/public/miniblog.gif?raw=true)
 
@@ -25,6 +25,16 @@ This is a small project that I've made during my class with Matheus Battisti. In
 
 - [React.js](https://pt-br.reactjs.org/)
 - [Firebase](https://firebase.google.com/?hl=pt)
+
+---
+:fa-star: <a id="features"> **Features** </a>
+
+- [x] Login
+- [x] Register
+- [x] Add Post
+- [x] Delete Post
+- [x] Read Post
+- [ ] Update Post
 
 
 ---
